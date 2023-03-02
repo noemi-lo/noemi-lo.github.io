@@ -44,6 +44,7 @@ div {
     background: white;
     display: inline-block;
     margin-right: 30px;
+    background-color: #e67e22;
 }
 .row {
     margin-bottom: 30px;
@@ -55,4 +56,19 @@ div {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
+}
+#third-row .circle {
+    background-color: #de6868;
+}
+.circle, #frame {
+    border-style: dotted;
+}
+#first-row, .circle {
+    opacity: 0;
+}
+.green, .fancy {
+    background-color: #6392c0;
+}
+.circle: :hover{
+    opacity: 0.5;
 }
