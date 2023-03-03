@@ -69,6 +69,6 @@ div {
 .green, .fancy {
     background-color: #6392c0;
 }
-.circle: :hover{
+.circle:hover{
     opacity: 0.5;
 }

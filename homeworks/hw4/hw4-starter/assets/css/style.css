@@ -56,10 +56,10 @@ header {
 .image-card-color-overlay {
     position: absolute;
     /* PROBLEM 4: Move the color overlay to cover the image properly */
-    top: 50px;
-    left: 200px;
+    top: 0px;
+    left: 0px;
     /* PROBLEM 5: What should the opacity be when there is no hover? */
-    opacity: 0.7;
+    opacity: 0;
     transition: 0.3s;
     background-color: navy;
 }
@@ -71,25 +71,38 @@ header {
 
 .image-card-text {
     /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
-
-
-
     color: white;
+    position: absolute;
+    top: 165px;
+    left: 20px;
 }
 
 
 /* PROBLEM 7: Improve the typography and colors of this page! */
 
 #title {
+    font-family:'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    line-height: 2dvb;
+    color:rgb(33, 11, 44);
 
 }
 
 h1 {
-
+    font-family:'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    line-height: 2dvb;
+    color:rgb(33, 11, 44);
 }
 
 h2 {
-
+    font-family:'Montserrat', sans-serif;
+    font-size:large;
+    font-weight: 600;
+    line-height: 2dvb;
+    color:rgb(33, 11, 44);
 }
 
 h3 {
@@ -97,5 +110,11 @@ h3 {
 }
 
 p {
-
+    font-family:'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    line-height: 2dvb;
+    color:rgb(33, 11, 44);
+    margin:2.5%;
+    text-indent: 2.5%;
 }
