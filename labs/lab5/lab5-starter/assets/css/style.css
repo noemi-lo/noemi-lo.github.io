@@ -38,8 +38,11 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
-.q2-tiny-box {
-
+.q2-big-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 
