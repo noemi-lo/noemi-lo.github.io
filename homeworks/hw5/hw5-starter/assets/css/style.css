@@ -1,19 +1,21 @@
 .nav{
     /* [Problem 1] 
         FIXME: Set the width of the nav class to 85px. */
-
+    width: 85px;
 }
 .nav--button{
     /*  [Problem 2]
         FIXME: Initialize flexbox vertically. Align the text and icons so that they
         are center aligned. */
-
+        display: flex;
+        flex-direction: column;
+         
 }
 .dashboard{
     /*  [Problem 3]
         FIXME: Add some breathing room! The dashboard portion is a bit tight! 
         (Hint: use padding!) */
-
+    padding: 10%;
 }
 .dashboard--title{
     /*  [Problem 4]
@@ -34,7 +36,7 @@
 
         [Problem 7]
         FIXME: Add 35px to the space under each box. (Choose carefully!) */
-
+    width: 31.5%;
         
 }
 /*  [Problem 8]
