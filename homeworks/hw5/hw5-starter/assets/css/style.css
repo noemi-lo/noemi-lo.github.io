@@ -9,26 +9,33 @@
         are center aligned. */
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
          
 }
 .dashboard{
     /*  [Problem 3]
         FIXME: Add some breathing room! The dashboard portion is a bit tight! 
         (Hint: use padding!) */
-    padding: 10%;
+    padding: 2%;
 }
 .dashboard--title{
     /*  [Problem 4]
         FIXME: Use flex to add the correct spacing between the "Dashboard" text and
         the three dot button icon that you added previously. Align them to the 
         center of each item. */
-
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
 }
 .dashboard--classes{
     /*  [Problem 5]
         FIXME: Use flexbox to make the classes tabs wrap in a 3x2 setup.
         Use flexbox to create equal spacing between each box. */
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .dashboard--classes__box{
     /*  [Problem 6]
@@ -36,8 +43,8 @@
 
         [Problem 7]
         FIXME: Add 35px to the space under each box. (Choose carefully!) */
-    width: 31.5%;
-        
+        width: 275px;
+        margin: 10px;
 }
 /*  [Problem 8]
     FIXME: when the dashboard--classes__box class is hovered over, add a
@@ -45,17 +52,23 @@
 	bcourses interface. Use this: 0 4px 10px rgba(0,0,0,0.35)
 
 	Write your own class identifier. */
+.dashboard--classes__box:hover {
+    border-color: rgba(0,0,0,0.35);
+    border-radius: 10px;
+}
+    
 
 
 
-.dashboard--classes__box__image{
+.dashboard--classes__box__image {
     /*  [Problem 9]
         FIXME: The class tab should have a border-radius of 5px along the top
     	of the boxes. 
 
     	(Hint: Make sure you only add it to the top left and top
     	right corners. Simply put, the answer is NOT border-radius: 5px.) */
-
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 
 }
 /*  [Problem 10]
@@ -63,14 +76,16 @@
     change the cursor to a pointer. Write the selectors and the styles!
 
     Write your own class identifier. */
-
+.dashboard--classes__box__controls__text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 
 .notifications__notifs .notifications__notifs--box{
     /*  [Problem 11]
         FIXME: Turn this element into a flex element and use the correct property
         to align the announcement icon and the text box. */
-        
-
-        
+    display: flex;
+    align-items: center;    
 }
