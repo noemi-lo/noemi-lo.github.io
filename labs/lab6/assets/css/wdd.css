@@ -94,19 +94,19 @@ p:nth-child(2) {
     margin: 30px 0px;
     padding: 0px 30px;
 }
-#submission-header, .info-title {
+/*#submission-header, .info-title {
     text-align: left;
     color: #78c272;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 15px;
+  */  margin-bottom: 15px;
 }
-#submission-content, .info-content {
+/*#submission-content, .info-content {
     padding: 15px;
     background: rgba(120, 194, 114, 0.1);
     border-radius: 2px;
     color: #4c5765;
-}
+}*/
 .info-required {
     font-size: 13px;
     font-weight: 700;
@@ -143,6 +143,7 @@ p:nth-child(2) {
 }
 .body li {
     line-height: 24px;
+    list-style: none;
 }
 .body {
     color: #4c5765;
