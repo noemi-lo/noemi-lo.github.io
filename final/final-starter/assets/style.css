@@ -1,0 +1,130 @@
+
+/*Background - behind cats (header)*/
+html {
+    background-color: #B58F69;
+}
+body {
+    font-family: Karla, sans-serif;
+    color: #484848;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-size: 64px;
+    font-family: 'Kiwi Maru';
+    font-weight: lighter;
+    position: relative; left: 1000px;
+    position: relative; top: -1500px;
+    text-align: center;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+}
+#lights {
+    align-items: center;
+    translate: -6.5%;
+}
+#floor {
+    height: auto;
+    width: 100%;
+    position: relative; top: 480px; 
+    position: relative; left: 0px; 
+}
+#beam {
+    height: 12%;
+    width: 12%;
+    position: relative; top: -508px; 
+    position: relative; left: 0px;  
+}
+#catstuff {
+    height: auto;
+    width: auto;
+    position: relative; top: -625px; 
+    position: relative; left: 100px;  
+}
+#tree {
+    height: auto;
+    width: auto;
+    position: relative; top: -400px; 
+    position: relative; left: -300px; 
+}
+#surface {
+    height: auto;
+    width: auto;
+    position: relative; top: -400px; 
+    position: relative; left: -200px; 
+}
+#coffeebar {
+    height: auto;
+    width: auto;
+    position: relative; top: -500px; 
+    position: relative; left: -200px;  
+}
+#stars {
+    height: auto;
+    width: auto;
+    position: relative; top: -675px; 
+    position: relative; left: 1110px; 
+}
+
+
+/*Shakeables - cats and table*/
+.shake { 
+    position: relative; top: 0px;
+}
+.shake:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    25% { transform: translate(-3px, 0px) rotate(0.5deg); }
+    50% { transform: translate(-1px, 2px) rotate(-0.5deg); }
+    75% { transform: translate(3px, 1px) rotate(-0.5deg); }
+    100% { transform: translate(1px, -2px) rotate(-0.5deg); }
+}
+#machine {
+    height: auto;
+    width: auto;
+    position: relative; top: -1508px; 
+    position: relative; left: 1000px; 
+}
+
+#browncat {
+    height: auto;
+    width: auto;
+    position: relative; top: -1600px; 
+    position: relative; left: 1365px; 
+}
+#blackcat {
+    height: auto;
+    width: auto;
+    position: relative; top: -1800px; 
+    position: relative; left: 650px;   
+}
+#graycat {
+    height: auto;
+    width: auto;
+    position: relative; top: -1600px; 
+    position: relative; left: 295px;   
+}
+#orangecat {
+    height: auto;
+    width: auto;
+    position: relative; top: -1740px; 
+    position: relative; left: 560px;  
+}
+#whitecat {
+    height: auto;
+    width: auto;
+    position: relative; top: -1920px; 
+    position: relative; left: 240px;  
+}
+
+/*Background cont. - infront of cats*/
+#catwall {
+    height: auto;
+    width: auto;
+    position: relative; top: -2235px; 
+    position: relative; left: 605px;   
+}
