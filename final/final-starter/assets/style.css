@@ -1,4 +1,5 @@
 
+/*Main Page*/
 /*Background - behind cats (header)*/
 html {
     background-color: #B58F69;
@@ -77,12 +78,20 @@ h3 {
 }
 
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    25% { transform: translate(-3px, 0px) rotate(0.5deg); }
-    50% { transform: translate(-1px, 2px) rotate(-0.5deg); }
-    75% { transform: translate(3px, 1px) rotate(-0.5deg); }
-    100% { transform: translate(1px, -2px) rotate(-0.5deg); }
-}
+    10%, 90% {
+        transform: translate(-1px, 0);
+    }
+    30%, 80% {
+        transform: translate(2px, 0);
+    }
+      
+    50%, 50%, 70% {
+        transform: translate(-2px, 0);
+    }
+    70%, 60% {
+        transform: translate(2px, 0);
+    }
+}   
 #machine {
     height: auto;
     width: auto;
@@ -127,4 +136,62 @@ h3 {
     width: auto;
     position: relative; top: -2235px; 
     position: relative; left: 605px;   
+}
+
+/*Cat Page*/
+h4 {
+    font-size: 64px;
+    font-family: 'Kiwi Maru';
+    font-weight: lighter;
+    position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#cat {    
+    height: 18%;
+    width: 19%;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Flexbox*/
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    width: 100vw;
+	height:100vh;
+    position: relative; top: 40px;
+}
+
+.large-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+    background-color: #a7825e;
+    border: 1.5px solid #484848;
+	border-radius: 4px;
+	width: 300px;
+	height: 100px;
+    margin: 0.25%;
+}
+
+.text-box {
+	border: 0px;
+	border-radius: 2px;
+	font-size: 1.0em;
+	padding: 10px 0x;
+	margin: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    overflow-wrap: break-word;
 }
