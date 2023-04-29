@@ -106,18 +106,43 @@ li small {
 ------------------------------ */
 
 .dark-mode {
-  background: #000;
-  color: yellow;
+  background: #67523e;
+  color: #eee;
 }
 
 .dark-mode .container {
-  background: #422;
+  background: #2A2827;
 }
 
 .dark-mode h1 {
-  color: green;
+  color: #eee;
 }
 
 .dark-mode li:hover {
-  
+  background: #434241;
+}
+
+.dark-mode #toggleButton {
+  width: 200px;
+  display: block;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ebf6e0;
+  padding: 10px 18px;
+  border-radius: 21px;
+  white-space: nowrap;
+  background-color: transparent;
+  background-image: radial-gradient(#67523e 0,#67523e 75%,transparent 0,transparent 100%);
+  background-repeat: no-repeat;
+  background-size: 0 0;
+  background-position: 50% 50%;
+  border: 1px solid #ebf6e0;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.dark-mode #toggleButton:hover {
+  color: #ebf6e0;
+  background-size: 105% 150%;
 }
